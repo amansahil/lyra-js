@@ -67,7 +67,7 @@ CDN:
 
 ## Docs
 
-Check out our docs [here](https://lyra.js.org)
+Check out our docs [here](https://lyra.js.org/docs)
 
 
 

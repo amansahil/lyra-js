@@ -1,5 +1,5 @@
 /* 
-    version : 1.0.6
+    version : 1.0.7
     Author  : Aman Sahil
     Maintained at and by : https://github.com/amansahil/lyra-js    
 */

@@ -35,7 +35,7 @@ CDN:
 
     //Yes, Even Something like this
 
-    lr.dateDifference = function(date, date2) 
+    lr.dateDifference(date, date2) 
     
     //Get's the difference in years, months, days or even in hours, minutes and seconds
 

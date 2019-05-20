@@ -1,5 +1,5 @@
 # Lyra-JS
-A tiny javascript library that makes code look neater, dates easier and much more.
+A tiny javascript utility library that makes code look neater, dates easier and much more.
 
 ## Installation 
 

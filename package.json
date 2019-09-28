@@ -1,0 +1,29 @@
+{
+  "name": "lyra-js",
+  "version": "2.0.0",
+  "description": "A nano javascript library for date and time manipulation.",
+  "main": "lyra.ts",
+  "scripts": {
+    "test": "mocha lyra-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amansahil/lyra-js.git"
+  },
+  "keywords": [
+    "date",
+    "dates",
+    "string",
+    "array"
+  ],
+  "author": "Aman Sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amansahil/lyra-js/issues"
+  },
+  "homepage": "https://github.com/amansahil/lyra-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "name": "lyra-js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A nano javascript library for date and time manipulation.",
-  "main": "lyra.ts",
+  "main": "lyra.js",
   "scripts": {
     "test": "mocha lyra-test.js"
   },

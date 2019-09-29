@@ -375,7 +375,7 @@ exports.sub = function(arg, date) {
     res[0] = -parseInt(res[0])
 
     const arg = res[0] + ' ' + res[1]
-    return add(arg, date)
+    return this.add(arg, date)
   }
 }
 

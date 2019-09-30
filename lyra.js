@@ -1,5 +1,5 @@
 /* 
-    version : 2.0.0
+    version : 2.0.3
     Author  : Aman Sahil
     Maintained at and by : https://github.com/amansahil/lyra-js    
 */
@@ -121,7 +121,7 @@ exports.convertTimeByZone = function(currentZone, finalZone, date) {
   date2Convert.setHours(UTChour)
   date2Convert.setMinutes(UTCminute)
 
-  return this.getTimeByZone(finalZone.toUpperCase(), date2Convert)
+  return exports.getTimeByZone(finalZone.toUpperCase(), date2Convert)
 }
 
 exports.convertDate = function(format, date, length) {
@@ -375,7 +375,7 @@ exports.sub = function(arg, date) {
     res[0] = -parseInt(res[0])
 
     const arg = res[0] + ' ' + res[1]
-    return this.add(arg, date)
+    return exports.add(arg, date)
   }
 }
 

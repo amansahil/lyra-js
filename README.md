@@ -21,11 +21,11 @@ CDN:
 
     lr.getTimeByZone("JST") // Gets current date and time in Japan
 
-    lr.convertDateAdvanced("dd, mm yy", "30, June 2018")
+    lr.convertDate("dd, mm yy", "30, June 2018")
 
     // Converts any date format to a valid date string or date object
 
-    lr.convertDateAdvanced("mm, this is text hh@dd yy yy ss min", "07, this is text 6@3 2018 2018 13 13")
+    lr.convertDate("mm, this is text hh@dd yy yy ss min", "07, this is text 6@3 2018 2018 13 13")
 
     // Yes, Even Something like this
 
